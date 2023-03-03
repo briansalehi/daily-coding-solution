@@ -10,6 +10,6 @@ Bonus: Can you do this in one pass?
 
 This solution is named **Ksum** which refers to the question if two numbers add up to k.
 
-* [ksum header](#solutions/1/ksum.hpp)
-* [ksum source](#solutions/1/ksum.cpp)
-* [ksum test](#solutions/1/test.cpp)
+* [ksum header](/solutions/1/ksum.hpp)
+* [ksum source](/solutions/1/ksum.cpp)
+* [ksum test](/solutions/1/test.cpp)

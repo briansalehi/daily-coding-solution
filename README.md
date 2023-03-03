@@ -6,4 +6,5 @@ Each problem is a self-contained directory in [solutions](/solutions), having it
 
 ## Problems
 
-* [Problem #1](/solutions/1/)
+* [Problem #1](/solutions/1/README.md)
+* [Problem #2](/solutions/2/README.md)
