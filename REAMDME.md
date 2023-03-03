@@ -1,9 +1,0 @@
-# Daily Coding Solution
-
-Solutions to problems sent by [Daily Coding Problem](dailycodingproblem.com).
-
-Each problem is a self-contained directory in [solutions](#solutions), having its own test unit and documentation.
-
-## Problems
-
-* [Problem #1](#solutions/1/)
