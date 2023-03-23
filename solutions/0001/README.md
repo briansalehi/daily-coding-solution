@@ -10,9 +10,9 @@ Bonus: Can you do this in one pass?
 
 This solution is named **Ksum** which refers to the question if two numbers add up to k.
 
-* [ksum header](/solutions/1/ksum.hpp)
-* [ksum usage](/solutions/1/main.cpp)
-* [ksum test](/solutions/1/test.cpp)
+* [ksum header](/ksum.hpp)
+* [usage](/main.cpp)
+* [test](/test.cpp)
 
 ### Brute Force
 

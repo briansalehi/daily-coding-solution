@@ -1,9 +1,7 @@
 #pragma once
 
-#include <iostream>
 #include <set>
 #include <ranges>
-#include <iterator>
 #include <algorithm>
 
 /*
@@ -14,20 +12,18 @@
  * return true since 10 + 7 is 17.
  *
  * Bonus: Can you do this in one pass?
+ *
  */
-
 template <typename C, typename T>
-constexpr bool ksum(C const& container, T summation)
+constexpr bool ksum(C const& container, T const& k)
 {
     std::set<T> seen{};
 
-    for (auto iter = std::cbegin(container); iter != std::cend(container); ++iter)
-    {
-        if (seen.contains(summation - *iter))
-            return true;
+    auto contains_ksum = [&seen, &k](T const& element) {
+        bool contains = seen.contains(k - element);
+        seen.insert(element);
+        return contains;
+    };
 
-        seen.insert(*iter);
-    }
-
-    return false;
+    return std::ranges::any_of(container, contains_ksum);
 }

@@ -2,7 +2,7 @@
 
 Solutions to problems sent by [Daily Coding Problem](https://dailycodingproblem.com).
 
-Each problem is a self-contained directory in [solutions](/solutions), having its own test unit and documentation.
+Each problem is a self-contained directory in [solutions](/solutions/README.md), having its own test unit and documentation.
 
 ## Problems
 
