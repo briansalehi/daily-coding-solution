@@ -12,6 +12,19 @@ For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be
 
 ## Solution
 
-* [problem header](/solutions/2/problem.hpp)
-* [problem source](/solutions/2/problem.cpp)
-* [problem test](/solutions/2/test.cpp)
+The solution is named **product** as the question requires an algorithm which returns
+a list of product numbers.
+
+* [product header](/solutions/2/product.hpp)
+* [product usage](/solutions/2/main.cpp)
+* [product test](/solutions/2/test.cpp)
+
+## Usage
+
+```sh
+```
+
+## Test
+
+```sh
+```
