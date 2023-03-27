@@ -8,4 +8,4 @@ Each problem is a self-contained directory in [solutions](/solutions/README.md),
 
 * [Problem #1](/solutions/0001/README.md)
 * [Problem #2](/solutions/0002/README.md)
-* [Problem #3](/solutions/0003/README.md)
+* [Problem #3 (Not Solved)](/solutions/0003/README.md)
