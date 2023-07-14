@@ -3,6 +3,8 @@
 *.so
 *.tmp
 *.pdf
-build/
+test
 tags
+problem
+build/
 problems/
